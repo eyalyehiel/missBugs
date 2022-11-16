@@ -1,6 +1,8 @@
 const fs = require('fs')
 const Cryptr = require('cryptr')
-const cryptr = new Cryptr('secret-puk-1234')
+const dotenv = require('dotenv')
+
+const cryptr = new Cryptr(process.env.SECRET_KEY)
 
 const gUsers = require('../data/user.json')
 
