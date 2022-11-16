@@ -1,0 +1,30 @@
+[
+    {
+        "fullname": "Eyal Yehiel",
+        "username": "eyal",
+        "password": "1234",
+        "bugs": [
+            {
+                "severity": 1,
+                "desc": "descrasdasd",
+                "title": "My bugqqqqw213232324342",
+                "createdAt": "Wed Nov 16 2022",
+                "creator": {
+                    "_id": "178Hv",
+                    "fullname": "Eyal Yehiel"
+                },
+                "_id": "ir5wp"
+            }
+        ],
+        "_id": "178Hv",
+        "isAdmin": false
+    },
+  {
+    "fullname": "Administrator",
+    "username": "admin",
+    "password": "admin",
+    "bugs": [],
+    "_id": "3h4k5",
+    "isAdmin": true
+  }
+]
